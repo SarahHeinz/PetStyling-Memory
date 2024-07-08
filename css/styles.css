@@ -15,12 +15,14 @@ body {
   background-image: url("../img/bg.png");
   background-size: 800px;
   background-repeat: repeat;
-  color: ;
+  color: #24453d;
 }
 
-img {
+.card img {
 width: 90%;
 margin: 5px;
+display: none;
+transition: 0.3s all ease;
 }
 
 .card {
