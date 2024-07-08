@@ -1,4 +1,10 @@
 const counter=0;
 const firstSelection = "";
 const secondSelection ="";
-const cards = document.querySelectorAll(".card");
+const card = document.querySelector (".card");
+
+// Click the card
+
+function show (){
+if (card)
+}
