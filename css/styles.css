@@ -11,11 +11,11 @@ body {
   font-style: normal;
   font-size: 20px;
   line-height: 150%;
-  background-color: #dff6f6;
+  background-color: #8afbad;
   background-image: url("../img/bg.png");
   background-size: 800px;
   background-repeat: repeat;
-  color: #305050;
+  color: ;
 }
 
 img {
@@ -24,7 +24,7 @@ margin: 5px;
 }
 
 .card {
-  background-color: #e96e7a;
+  background-image: linear-gradient(to right top, #e96e7a, #e6739a, #d97eb8, #c48bcf, #aa98df, #95a6ed, #7fb3f5, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 display: flex;
 justify-content: center;
 align-items: center;
