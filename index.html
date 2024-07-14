@@ -1,36 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pet Styling Memory</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Unlock&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/script.js" defer></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Styling Memory</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Unlock&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/script.js" defer></script>
+</head>
 
-  <body>
-    <div class="container">
-      <h1>Pet Styling Memory Game</h1>
-      <h5>Do you want to see some of our fancy stylings? How did our clients look before and after their session? Find the pairs! </h5>
-      <div class="memory">
-        <div class="card"><img id= "1" src="./img/after1.jpg" alt="Estrella with flower and new style"></div>
-         <div class="card"><img id= "2" src="./img/after2.jpg" alt="Estrella sleeping new style"></div>
-         <div class="card"><img id= "3" src="./img/before1.jpg" alt="Estrella with flower old style"></div>
-         <div class="card"><img id= "4" src="./img/before2.jpg" alt="Estrella sleeping old style"></div>
-         <div class="card"><img id= "5" src="./img/after1.jpg" alt="Estrella with flower and new style"></div>
-         <div class="card"><img id= "6" src="./img/after2.jpg" alt="Estrella sleeping new style"></div>
-         <div class="card"><img id= "7" src="./img/before1.jpg" alt="Estrella with flower old style"></div>
-         <div class="card"><img id= "8" src="./img/before2.jpg" alt="Estrella sleeping old style"></div>
-         <div class="card"><img id= "9" src="./img/after1.jpg" alt="Estrella with flower and new style"></div>
-         <div class="card"><img id= "10" src="./img/after2.jpg" alt="Estrella sleeping new style"></div>
-         <div class="card"><img id= "11" src="./img/before1.jpg" alt="Estrella with flower old style"></div>
-         <div class="card"><img id= "12" src="./img/before2.jpg" alt="Estrella sleeping old style"></div>
+<body>
+  <section id="gallery-container">
+    <div class="gallery-content-wrapper">
+      <div class="gallery-header">
+        <h1>Pet Styling Gallery</h1>
+        <h4>Do you want to see some of our fancy stylings? How did our clients look before and after their session?
+          Click
+          the buttons!</h5>
+          <div class="gallery-wrapper">
+            <div class="before">
+              <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/HAIRY-before-and-after-transformations-of-dog-haircuts-57940a5e5b525__700.jpg"/>
+              <h5>Before</h5>
+            </div>
+            <div class="after">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/HAIRY-before-and-after-transformations-of-dog-haircuts-57940a6be6e1b__700.jpg" />
+              <button class="show-style">After</button>
+            </div>
+            <div class="before">
+              <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/4-Herman_Before_Square-5792a445eebf1__700.jpg" />
+              <h5>Before</h5>
+            </div>
+            <div class="after">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/4-Herman-After-Square-5792a4493f0cf__700.jpg" />
+              <button class="show-style">After</button>
+            </div>
+            <div class="before">
+              <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/5-Raider-Before_square-5792a3b27fd41__700.jpg" />
+              <h5>Before</h5>
+            </div>
+            <div class="after">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/5-Raider_After-Square-5792a3d1f0e81__700.jpg" />
+              <button class="show-style">After</button>
+            </div>
+            <div class="before">
+              <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/HAIRY-before-and-after-transformations-of-dog-haircuts-5794201140b5b__700.jpg" />
+              <h5>Before</h5>
+            </div>
+            <div class="after">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/HAIRY-before-and-after-transformations-of-dog-haircuts-5794202062053__700.jpg" />
+              <button class="show-style">After</button>
+            </div>
+            <div class="before">
+              <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/dog-grooming-photography-2.jpg" />
+              <h5>Before</h5>
+            </div>
+            <div class="after">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/dog-grooming-photography-1.jpg" />
+              <button class="show-style">After</button>
+            </div>
+            <div class="before">
+              <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/2-Athena_Before_square-5792a46de9cc2__700.jpg" />
+              <h5>Before</h5>
+            </div>
+            <div class="after">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/07/2-Athena_After_square-5792a4731c84a__700.jpg" />
+              <button class="show-style">After</button>
+            </div>
+          </div>
       </div>
-    </body>
+    </section>
+</body>
 
 </html>
